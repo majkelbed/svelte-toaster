@@ -1,0 +1,42 @@
+{
+  "name": "svelte-toaster",
+  "version": "0.0.1",
+  "description": "Svelte toaster, tasty way to notify users about any action",
+  "svelte": "index.svelte",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majkelbed/svelte-toaster.git"
+  },
+  "keywords": [
+    "notifications",
+    "toaster",
+    "svelte",
+    "toast",
+    "info",
+    "popup"
+  ],
+  "author": "Michał Bednarczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majkelbed/svelte-toaster/issues"
+  },
+  "homepage": "https://github.com/majkelbed/svelte-toaster#readme",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^0.4.4"
+  }
+}
